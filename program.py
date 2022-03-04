@@ -78,7 +78,7 @@ def breed_prediction(input_img, list_breeds) :
 def main():
     
     # Background
-    media = Image.open('./models/dogs.jpeg' )
+    media = Image.open('./media/dogs.jpeg' )
     st.image(media, caption = "image from https://www.istockphoto.com")
 
     #Title
