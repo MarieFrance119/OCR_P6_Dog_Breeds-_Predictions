@@ -5,6 +5,9 @@ streamlit run app.py
 
 Then the app is available at :
 http://localhost:8501
+
+The app is also available on web at the address :
+https://share.streamlit.io/mariefrance119/ocr_p6_dog_breeds_predictions/main/program.py
 """
 
 # Data manipulation
@@ -25,7 +28,7 @@ import joblib
 import streamlit as st
 
 # Load model
-model = load_model("./models/opt_model_MobileNetV2.h5")
+model = load_model("./models/opt_model_MobileNetV2_ter.h5")
 
 # Load List of breeds
 breeds_list = joblib.load("./models/list_breeds.joblib")
